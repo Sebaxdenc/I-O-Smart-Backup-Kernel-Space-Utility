@@ -1,0 +1,23 @@
+# Ejecutables compilados
+smart_backup
+backup_EAFITos
+*.exe
+*.out
+
+# Archivos objeto
+*.o
+
+# Archivos de prueba generados aleatoriamente (¡Especialmente el de 1GB!)
+*.bin
+*.bin.sys
+*.bin.stdio
+test_file.txt
+test_file_backup.txt
+
+# Directorios temporales de prueba
+src_test/
+dest_test/
+
+# Carpetas y archivos del sistema / IDE
+.vscode/
+.DS_Store
